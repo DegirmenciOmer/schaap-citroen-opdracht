@@ -25,7 +25,6 @@ function App() {
         ) : error ? (
           <div style={{color:'red'}}>Something went wrong...</div>
         ) : (
-          // <div>Hello</div>
           <RandomCountry countries={data.countries} />
         )}
       </div>
